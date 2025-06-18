@@ -1,6 +1,7 @@
 ---
 layout: page
-title: news
+title: News
+image: /assets/img/news.png
 permalink: /news/
 ---
 

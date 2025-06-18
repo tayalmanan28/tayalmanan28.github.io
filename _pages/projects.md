@@ -1,13 +1,21 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /research/
+image: /assets/img/hero_research.png
+description: Research Projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Ongoing Projects, Completed Projects]
 horizontal: false
 ---
+
+<h4> I work at the intersection of Control, Optimization and Machine Learning, with a focus on safety enforced decision-making in dynamical systems. Developing methods that integrate learning with formal guarantees to ensure constraint satisfaction and robust performance in uncertain, data-driven environments. </h4>
+
+<!-- Inserted a figure from /assets/img/research.png -->
+<div class="hero-image">
+  <img src="{{'/assets/img/research.png' | relative_url }}" alt="Research image" width="100%" height="auto">
+</div>
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -22,14 +30,14 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

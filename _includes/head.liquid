@@ -47,6 +47,9 @@
 
 <!-- Styles -->
 
+<link defer href="{{ '/assets/css/style.css' | relative_url | bust_file_cache }}" rel="stylesheet">
+<script src="{{ '/assets/js/main.js' | relative_url | bust_file_cache }}"></script>
+
 {% if page.pseudocode %}
   <!-- pseudocode -->
   <link

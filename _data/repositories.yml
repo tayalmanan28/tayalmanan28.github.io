@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - tayalmanan28
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - tayalmanan28/MuJoCo-Tutorial
+  - tayalmanan28/Safe_Reinforcement_Learning
+  - tayalmanan28/Stochastic-NCBF
