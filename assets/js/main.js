@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{function e(){s&&s.value>0?(t.classList.add("solid"),t.classList.remove("transparent")):(t.classList.add("transparent"),t.classList.remove("solid"))}const t=document.getElementById("navbar"),s=document.getElementById("progress");window.addEventListener("scroll",e),e()}));
