@@ -1,0 +1,20 @@
+- year: 2025
+  month: Mar
+  title: A Physics Informed Machine Learning approach for Safe and Optimal Control of Autonomous Systems
+  # talk_link:
+  venue: Safe and Intelligent Autonomy Lab, Stanford University
+  venue_link: https://smlbansal.github.io/sia-lab/
+  slides: https://docs.google.com/presentation/d/e/2PACX-1vTbw17w_ck0MMF5uNvzCaLlZ9fZ0A0DoNjM36ZeZ0hC3xzUsKNJdU0MA6AUI_duYYUzDOGKGWLJCBdZ/pub?start=false&loop=false&delayms=3000
+
+- year: 2024
+  month: Jul
+  title: Learning Formally Verified Neural Control Barrier Functions in Stochastic Environments
+  venue: Cyber Physical Systems Symposium(CyPhySS), Bangalore
+  venue_link: https://cps.iisc.ac.in/cyphyss2024/
+
+- year: 2023
+  month: Sept
+  title: A Collision Cone Approach for Control Barrier Functions
+  slides: https://docs.google.com/presentation/d/e/2PACX-1vTZgff8d6Exm8t_kySAkfmY91UVVQicedEB--MRCEurh04_E2q27tbkgLo1_DBv3hiyEAxF8sbh1-Pp/pub?start=false&loop=false&delayms=3000
+  venue: Systems and Controls, IIT Bombay
+  venue_link: https://www.sc.iitb.ac.in/

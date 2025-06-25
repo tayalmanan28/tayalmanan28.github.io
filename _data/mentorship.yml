@@ -1,0 +1,60 @@
+# PhD Students
+- name: Prakrut Kotecha
+  website: https://www.linkedin.com/in/prakrut-kotecha-044093189/
+  project: Learning Safe Dynamics and Control for Autonomous Systems
+  institution: IISc Bangalore
+  institution_link: https://www.iisc.ac.in/
+  duration: Jul 2025 – Present
+  level: phd
+
+# Master's students
+- name: Pranav Tiwari
+  website: https://pranavtiwari.github.io/
+  project: Safety Critical Control of Autonomous Systems
+  institution: IISc Bangalore
+  institution_link: https://www.iisc.ac.in/
+  duration: Jul 2025 – Present
+  level: masters
+
+- name: GVS Mothish
+  website: https://gvsmothish.github.io/
+  project: Control of Bipedal Robots in Uneven Terrain
+  institution: IISc Bangalore
+  institution_link: https://www.iisc.ac.in/
+  duration: Sept 2022 – Jul 2024
+  level: masters
+
+# Bachelor's students
+
+- name: Aditya Singh
+  website: https://www.linkedin.com/in/aditya-singh-77320b207/
+  project: Safety Critical Control of Autonomous Systems
+  institution: IIT Patna
+  institution_link: https://www.iitp.ac.in/
+  duration: 2024–Present
+  level: bachelors
+
+- name: Shreenabh Agrawal
+  website: https://www.linkedin.com/in/shreenabh/
+  project: Safety Critical Control of Autonomous Systems
+  institution: IISc Bangalore
+  institution_link: https://www.iisc.ac.in/
+  duration: 2024–2025
+  level: bachelors
+
+- name: Karthik Rajgopal
+  website: https://www.linkedin.com/in/karthik-rajgopal-1035021ba/
+  project: Design and Control of Bipedal Robot
+  institution: BITS Pilani
+  institution_link: https://www.bits-pilani.ac.in/
+  duration: 2022–2024
+  level: bachelors
+
+- name: Ravi Kola
+  website: https://www.linkedin.com/in/ravi-kola-561144157/
+  project: Design and Control of Bipedal Robot
+  institution: GTU
+  institution_link: https://en.wikipedia.org/wiki/Gujarat_Technological_University
+  duration: 2023–2024
+  level: bachelors
+# Add master's and PhD students similarly
