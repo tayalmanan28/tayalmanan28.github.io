@@ -25,17 +25,24 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "A collection of my GitHub repositories and stats.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-teaching",
-          title: "Teaching",
+        },{id: "nav-teaching-amp-outreach",
+          title: "Teaching &amp; Outreach",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-collaborations",
+          title: "Collaborations",
+          description: "Collaborations with other researchers and institutions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/collaborations/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -383,79 +390,53 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-am-excited-to-announce-that-i-will-be-joining-the-indian-institute-of-technology-iit-bombay-to-pursue-my-bachelors-in-technology-b-tech-in-the-field-of-mechanical-engineering-looking-forward-to-this-new-journey-tada",
+          title: 'I am excited to announce that I will be joining the Indian Institute...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-will-be-starting-my-phd-at-the-indian-institute-of-science-iisc-bangalore-in-fall-2021-i-will-be-working-with-professor-shishir-kolathaya-i-am-excited-to-be-a-part-of-the-stochastic-robotics-lab-at-iisc-tada-rocket",
+          title: 'I will be starting my PhD at the Indian Institute of Science (IISc)...',
+          description: "",
+          section: "News",},{id: "news-graduated-with-bachelors-in-technology-b-tech-from-iit-bombay",
+          title: 'Graduated with Bachelors in Technology (B.Tech.) from IIT Bombay!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/IITB_graduation/";
+            },},{id: "news-i-am-excited-to-announce-that-i-have-been-awarded-the-prime-minister-s-research-fellowship-pmrf-for-my-phd-studies-at-iisc-bangalore-by-the-ministry-of-education-moe-government-of-india-tada-this-prestigious-fellowship-will-support-my-research-in-the-field-of-robotics-and-control-systems-allowing-me-to-contribute-to-advancements-in-this-area",
+          title: 'I am excited to announce that I have been awarded the Prime Minister’s...',
           description: "",
-          section: "News",},{id: "news-we-are-thrilled-to-announce-that-two-of-our-papers-are-accepted-at-the-american-control-conference-acc-toronto-canada-this-time-control-barrier-functions-in-dynamic-uavs-for-kinematic-obstacle-avoidance-a-collision-cone-approach-and-collision-cone-control-barrier-functions-experimental-validation-on-ugvs-for-kinematic-obstacle-avoidance",
-          title: 'We are thrilled to announce that two of our papers are accepted at...',
+          section: "News",},{id: "news-i-am-thrilled-to-announce-that-our-paper-collision-cone-control-barrier-functions-for-kinematic-obstacle-avoidance-in-ugvs-has-been-accepted-at-the-indian-control-conference-icc-2023-vizag-india-tada",
+          title: 'I am thrilled to announce that our paper, Collision Cone Control Barrier Functions...',
           description: "",
-          section: "News",},{id: "news-we-are-thrilled-to-announce-that-our-paper-polygonal-cone-control-barrier-functions-polyc2bf-for-safe-navigation-in-cluttered-environments-has-been-accepted-at-the-european-control-conference-2024-ecc-stockholm-sweden",
-          title: 'We are thrilled to announce that our paper, “Polygonal Cone Control Barrier Functions...',
+          section: "News",},{id: "news-two-of-our-papers-control-barrier-functions-in-dynamic-uavs-for-kinematic-obstacle-avoidance-a-collision-cone-approach-and-collision-cone-control-barrier-functions-experimental-validation-on-ugvs-for-kinematic-obstacle-avoidance-are-accepted-at-the-american-control-conference-acc-2024-toronto-canada-tada",
+          title: 'Two of our papers Control Barrier Functions in Dynamic UAVs for Kinematic Obstacle...',
           description: "",
-          section: "News",},{id: "news-our-recent-work-titled-learning-a-formally-verified-control-barrier-function-in-stochastic-environment-has-been-accepted-to-ieee-conference-on-decision-and-control-cdc-2024-milan-italy",
-          title: 'Our recent work titled “Learning a Formally Verified Control Barrier Function in Stochastic...',
+          section: "News",},{id: "news-i-am-thrilled-to-announce-that-my-paper-polygonal-cone-control-barrier-functions-polyc2bf-for-safe-navigation-in-cluttered-environments-has-been-accepted-at-the-european-control-conference-ecc-2024-stockholm-sweden-tada",
+          title: 'I am thrilled to announce that my paper, Polygonal Cone Control Barrier Functions...',
           description: "",
-          section: "News",},{id: "news-our-work-titled-a-physics-informed-machine-learning-framework-for-safe-and-optimal-control-of-autonomous-systems-has-been-accepted-at-the-icml-2025-vancouver-canada-sparkles",
-          title: 'Our work titled “A Physics-Informed Machine Learning Framework for Safe and Optimal Control...',
+          section: "News",},{id: "news-our-recent-work-titled-learning-a-formally-verified-control-barrier-function-in-stochastic-environment-has-been-accepted-to-63rd-ieee-conference-on-decision-and-control-cdc-2024-milan-italy-tada-check-out-the-project-page",
+          title: 'Our recent work titled Learning a Formally Verified Control Barrier Function in Stochastic...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-collision-cone-control-barrier-functions",
+          section: "News",},{id: "news-i-am-thrilled-to-announce-that-our-paper-birodiff-diffusion-policies-for-bipedal-robot-locomotion-on-unseen-terrains-has-been-accepted-at-the-indian-control-conference-icc-2024-bhopal-india-tada-check-out-the-project-page",
+          title: 'I am thrilled to announce that our paper, BiRoDiff: Diffusion policies for bipedal...',
+          description: "",
+          section: "News",},{id: "news-our-work-titled-a-physics-informed-machine-learning-framework-for-safe-and-optimal-control-of-autonomous-systems-has-been-accepted-at-the-42nd-international-conference-on-machine-learning-icml-2025-vancouver-canada-tada-check-out-the-project-page",
+          title: 'Our work titled A Physics-Informed Machine Learning Framework for Safe and Optimal Control...',
+          description: "",
+          section: "News",},{id: "projects-collision-cone-control-barrier-functions",
           title: 'Collision Cone Control Barrier Functions',
           description: "A novel geometric approach to safe navigation in cluttered environments using control barrier functions (CBFs).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/CollisionConeCBF/";
+            },},{id: "projects-training-verified-neural-control-barrier-functions",
+          title: 'Training Verified Neural Control Barrier Functions',
+          description: "The research project focuses on training neural networks to learn control barrier functions (CBFs) that are formally verified for safety in dynamic environments.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/NCBF/";
+            },},{id: "projects-learning-safe-and-optimal-controllers-for-autonomous-systems",
+          title: 'Learning Safe and Optimal Controllers for Autonomous Systems',
+          description: "The research project focuses on developing controllers which balances safety and performance of the autonomous system.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PIML_SOC/";
             },},{
         id: 'social-email',
         title: 'email',
