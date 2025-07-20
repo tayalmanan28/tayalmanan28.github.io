@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-collaborations",
           title: "Collaborations",
-          description: "Collaborations with other researchers and institutions.",
+          description: "Academic research collaborations and applied consulting through Tau Intelligence.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/collaborations/";
