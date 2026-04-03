@@ -8,7 +8,7 @@ profile:
   hero_name: "Manan Tayal"
   hero_tagline: "Researcher in Safe Robot Learning"
   align: right
-  image: About.jpeg # name of the image in the `img/` folder
+  image: #About.jpeg # name of the image in the `img/` folder
   image_circular: false # crops the image to make it circular
   more_info: False
 
@@ -32,13 +32,13 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hi! I am Manan, a Researcher working on problems at the intersection of Control, Optimization and Machine Learning, with a focus on safety enforced decision-making in dynamical systems. Developing methods that integrate learning with formal guarantees to ensure constraint satisfaction and robust performance in uncertain, data-driven environments.
+Hi! I am Manan, a Visiting Researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">Microsoft Research</a>, working on safe agentic reasoning for Vision-Language-Action (VLA) models under <a href="https://www.microsoft.com/en-us/research/people/akshayn/">Dr. Akshay Nambi</a>. My research focuses on building <b>trustworthy and safe AI</b> for autonomous physical systems, spanning foundational models for Physical AI, agentic AI, offline reinforcement learning, and generative policy synthesis. I am broadly interested in developing principled methods that bring together learning and formal safety guarantees, ensuring that intelligent agents can operate reliably in the real world.
 
-I am PhD Scholar at <a href='https://cps.iisc.ac.in/'>Centre for Cyber Physical Systems</a>, Indian Institute of Science (IISc) Bangalore, working on Safe Robot Learning in the <a href='http://www.stochlab.com/'>Stochastic Robotics Lab</a> under the guidance of <a href='https://www.shishirny.com/'>Prof. Shishir N. Y. Kolathaya</a> and <a href="https://www.pushpakjagtap.com/"> Prof. Pushpak Jagtap.
+I recently completed my PhD at the <a href='https://cps.iisc.ac.in/'>Centre for Cyber Physical Systems</a>, Indian Institute of Science (IISc) Bangalore, where I worked on Safe Robot Learning in the <a href='http://www.stochlab.com/'>Stochastic Robotics Lab</a> under <a href='https://www.shishirny.com/'>Prof. Shishir N. Y. Kolathaya</a> and <a href="https://www.pushpakjagtap.com/">Prof. Pushpak Jagtap</a>. Prior to that, I completed my B.Tech from Indian Institute of Technology Bombay (IITB) in 2021.
 
-I am actively collaborating with <a href="https://smlbansal.github.io/"> Prof. Somil Bansal </a> at Stanford University and <a href="https://awclark587.wixsite.com/mysite"> Prof. Andrew Clark</a> at Washington University.
+I also frequently collaborate with <a href="https://smlbansal.github.io/">Prof. Somil Bansal</a>'s <a href="https://smlbansal.github.io/sia-lab/">SIA Lab</a> at Stanford University and <a href="https://xlab.upenn.edu/team/rahul/">Prof. Rahul Mangharam</a>'s <a href="https://xlab.upenn.edu/">xLab</a> at University of Pennsylvania.
 
-I completed my B.Tech from Indian Institute of Technology Bombay (IITB) in 2021.
+Before joining Microsoft Research, I spent time at <a href="https://www.fujitsu.com/global/about/research/">Fujitsu Research</a> (NextGenAI Lab) improving VLA model inference under <a href="https://manukaul.github.io/">Dr. Manu Kaul</a>. I have also worked as a Research Consultant at <a href="https://artpark.in/">ARTPARK</a> and as a Student Researcher at Washington University in St. Louis under <a href="https://awclark587.wixsite.com/mysite">Prof. Andrew Clark</a>.
 
 Click here for my <b>
 <a href="{{ site.resume_path | prepend: '/assets/pdf/' }}" target="_blank">detailed CV</a>
