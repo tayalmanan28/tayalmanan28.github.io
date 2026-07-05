@@ -10,6 +10,9 @@ nav_order: 6
 
 <h1>Teaching</h1>
 <p>Here you can find materials for courses I have taught.</p>
+<h2>Educational Videos & Outreach</h2>
+<p>I also create educational content on Robotics and AI. Check out my YouTube channel, <a href="https://www.youtube.com/@robotics-explained" target="_blank">Robotics Explained</a>, where I break down complex concepts in deep learning, reinforcement learning, and control theory.</p>
+
 <h2>Courses Taught Under PMRF</h2>
 
 <ul>

@@ -1,3 +1,21 @@
+- year: 2026
+  month: Jul
+  title: Towards Safe Foundation Models for Robotic Systems
+  venue: Microsoft Research India (Hosted by Dr. Akshay Nambi)
+  venue_link: https://www.microsoft.com/en-us/research/lab/microsoft-research-india/
+
+- year: 2025
+  month: Sept
+  title: Neural Safety Filters for Trustworthy Autonomy
+  venue: Ati Motors, Bangalore (Hosted by Dr. Naveen Arulselvan, CTO of Ati Motors)
+  venue_link: https://www.atimotors.com/
+
+- year: 2025
+  month: Aug
+  title: Towards Trustworthy Autonomy in Real World Environments
+  venue: Algorithmic Systems Theory (AST) Lab, ETH Zurich (Headed by Prof. Lars Lindemann)
+  venue_link: https://sites.google.com/view/larslindemann/ast-lab?authuser=0
+
 - year: 2025
   month: Mar
   title: A Physics Informed Machine Learning approach for Safe and Optimal Control of Autonomous Systems

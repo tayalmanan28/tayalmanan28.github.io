@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 permalink: /blog/
-title: blog
+title: Manan's Tech Blog
+hero_tagline: Notes on Robotics, Reinforcement Learning, and Open-Source Software
 nav: false
 nav_order: 1
 pagination:
@@ -16,18 +17,7 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-<div class="post">
 
-{% assign blog_name_size = site.blog_name | size %}
-{% assign blog_description_size = site.blog_description | size %}
-
-{% if blog_name_size > 0 or blog_description_size > 0 %}
-
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
-  {% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -192,5 +182,3 @@ pagination:
 {% if page.pagination.enabled %}
 {% include pagination.liquid %}
 {% endif %}
-
-</div>

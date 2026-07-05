@@ -69,7 +69,9 @@ My research focuses on building <b>trustworthy, safe, and performant AI</b> for 
     <p><strong>Key works:</strong>
     <a href="https://tayalmanan28.github.io/v-ocbf/">V-OCBF (TMLR)</a> ·
     <a href="https://tau-intelligence.com/EpiFlow/">EpiFlow</a> ·
-    <a href="https://arxiv.org/abs/2603.15136">Safe Flow Q-Learning</a></p>
+    <a href="https://arxiv.org/abs/2603.15136">Safe FQL (RLC)</a> 
+    <!-- <a href="https://openreview.net/forum?id=ffX7tGwAD8">Bridging Safety and Performance (ICML Workshop)</a> -->
+    </p>
   </div>
   <div class="col-md-5" style="text-align: center;">
     <img src="{{ '/assets/img/publication_preview/v-ocbf.jpg' | relative_url }}" alt="Safe Offline RL" style="width: 100%; height: auto; border-radius: 8px;">
@@ -90,6 +92,20 @@ My research focuses on building <b>trustworthy, safe, and performant AI</b> for 
   </div>
   <div class="col-md-5" style="text-align: center;">
     <img src="{{ '/assets/img/publication_preview/c3bf.png' | relative_url }}" alt="Collision Cone CBFs" style="width: 100%; height: auto; border-radius: 8px;">
+  </div>
+</div>
+
+---
+
+<div class="row align-items-center" style="margin-bottom: 2rem;">
+  <div class="col-md-7">
+    <h2>Open-Source Simulation Environments</h2>
+    <p>We develop high-performance simulation environments to accelerate research in reinforcement learning and control for autonomous systems.</p>
+    <p><strong>Key environments:</strong>
+    <a href="https://github.com/tau-intelligence/MuJoCo-drones-gym">MuJoCo-Drones-Gym</a></p>
+  </div>
+  <div class="col-md-5" style="text-align: center;">
+    <img src="{{ '/assets/img/publication_preview/mujoco_drone_gym.gif' | relative_url }}" alt="MuJoCo-Drones-Gym" style="width: 100%; height: auto; border-radius: 8px;">
   </div>
 </div>
 
