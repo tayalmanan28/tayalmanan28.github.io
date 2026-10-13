@@ -35,9 +35,9 @@ My research focuses on building <b>trustworthy, safe, and performant AI</b> for 
     <h2>Safe and Optimal Control of Autonomous Systems</h2>
     <p>We develop physics-informed machine learning frameworks that co-optimize safety and performance for autonomous systems. By formulating the problem as a state-constrained optimal control problem and approximating the solution via neural networks trained with HJB-inspired losses, we achieve scalable controllers with formal safety guarantees for high-dimensional systems — from ground vehicles to manipulators.</p>
     <p><strong>Key works:</strong>
-    <a href="https://tayalmanan28.github.io/piml-soc/">PIML-SOC (ICML 2025)</a> ·
-    <a href="https://tayalmanan28.github.io/robust-piml-soc/">Robust PIML-SOC (IJRR)</a> ·
-    <a href="https://tayalmanan28.github.io/mad-pinn/">MAD-PINN</a></p>
+    <a href="https://manantayal.com/piml-soc/">PIML-SOC (ICML 2025)</a> ·
+    <a href="https://manantayal.com/robust-piml-soc/">Robust PIML-SOC (IJRR)</a> ·
+    <a href="https://manantayal.com/mad-pinn/">MAD-PINN</a></p>
   </div>
   <div class="col-md-5" style="text-align: center;">
     <img src="{{ '/assets/img/publication_preview/ijrr.gif' | relative_url }}" alt="Safe and Optimal Control" style="width: 100%; height: auto; border-radius: 8px;">
@@ -52,7 +52,7 @@ My research focuses on building <b>trustworthy, safe, and performant AI</b> for 
     <p>We develop methods to learn and formally verify Neural Control Barrier Functions (NCBFs) that provide rigorous safety certificates for dynamical systems. Our work addresses stochastic environments, conformal prediction-based verification, and vision-based safety — enabling safe controllers that scale beyond hand-designed barrier functions.</p>
     <p><strong>Key works:</strong>
     <a href="https://arxiv.org/abs/2403.19332">S-NCBF (CDC 2024)</a> ·
-    <a href="https://tayalmanan28.github.io/sspl/">SSPL (CDC 2025)</a> ·
+    <a href="https://manantayal.com/sspl/">SSPL (CDC 2025)</a> ·
     <a href="https://arxiv.org/abs/2503.17395">CP-NCBF</a></p>
   </div>
   <div class="col-md-5" style="text-align: center;">
@@ -67,7 +67,7 @@ My research focuses on building <b>trustworthy, safe, and performant AI</b> for 
     <h2>Safe Offline Reinforcement Learning</h2>
     <p>We develop frameworks for learning safe policies entirely from offline data, without online interaction. Our methods combine value-based safety propagation, control barrier functions, and generative models (flow matching) to synthesize controllers that achieve near-zero safety violations while maintaining strong task performance — critical for deploying RL in the real world.</p>
     <p><strong>Key works:</strong>
-    <a href="https://tayalmanan28.github.io/v-ocbf/">V-OCBF (TMLR)</a> ·
+    <a href="https://manantayal.com/v-ocbf/">V-OCBF (TMLR)</a> ·
     <a href="https://tau-intelligence.com/EpiFlow/">EpiFlow</a> ·
     <a href="https://arxiv.org/abs/2603.15136">Safe FQL (RLC)</a> 
     <!-- <a href="https://openreview.net/forum?id=ffX7tGwAD8">Bridging Safety and Performance (ICML Workshop)</a> -->
@@ -85,10 +85,10 @@ My research focuses on building <b>trustworthy, safe, and performant AI</b> for 
     <h2>Collision Cone Control Barrier Functions</h2>
     <p>We introduce a geometric framework for safe navigation based on collision cones and control barrier functions. This line of work provides real-time obstacle avoidance guarantees for UAVs, UGVs, legged robots, and multi-agent systems operating in dynamic, cluttered environments — validated extensively in hardware.</p>
     <p><strong>Key works:</strong>
-    <a href="https://tayalmanan28.github.io/CollisionConeCBF/">C3BF (TCST)</a> ·
-    <a href="https://tayalmanan28.github.io/C3BF-UAV/">C3BF-UAV (ACC 2024)</a> ·
-    <a href="https://tayalmanan28.github.io/C3BF-UGV/">C3BF-UGV (ACC 2024)</a> ·
-    <a href="https://tayalmanan28.github.io/PolyC2BF/">PolyC2BF (ECC 2024)</a></p>
+    <a href="https://manantayal.com/CollisionConeCBF/">C3BF (TCST)</a> ·
+    <a href="https://manantayal.com/C3BF-UAV/">C3BF-UAV (ACC 2024)</a> ·
+    <a href="https://manantayal.com/C3BF-UGV/">C3BF-UGV (ACC 2024)</a> ·
+    <a href="https://manantayal.com/PolyC2BF/">PolyC2BF (ECC 2024)</a></p>
   </div>
   <div class="col-md-5" style="text-align: center;">
     <img src="{{ '/assets/img/publication_preview/c3bf.png' | relative_url }}" alt="Collision Cone CBFs" style="width: 100%; height: auto; border-radius: 8px;">
