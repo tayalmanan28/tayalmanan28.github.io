@@ -37,12 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/collaborations/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-am-excited-to-announce-that-i-will-be-joining-the-indian-institute-of-technology-iit-bombay-to-pursue-my-bachelors-in-technology-b-tech-in-the-field-of-mechanical-engineering-looking-forward-to-this-new-journey-tada",
+        },{id: "news-i-am-excited-to-announce-that-i-will-be-joining-the-indian-institute-of-technology-iit-bombay-to-pursue-my-bachelors-in-technology-b-tech-in-the-field-of-mechanical-engineering-looking-forward-to-this-new-journey-tada",
           title: 'I am excited to announce that I will be joining the Indian Institute...',
           description: "",
           section: "News",},{id: "news-i-will-be-starting-my-phd-at-the-indian-institute-of-science-iisc-bangalore-in-fall-2021-i-will-be-working-with-professor-shishir-kolathaya-i-am-excited-to-be-a-part-of-the-stochastic-robotics-lab-at-iisc-tada-rocket",
